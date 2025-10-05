@@ -1,6 +1,3 @@
-## Hello, This Shruthi Sree Thirunavukkarasu
-
-Welcome to my portfolio website!
 
 ## About Me
 Data Analyst with 3+ years of experience delivering strategic insights through business intelligence, data modeling, and advanced analytics. Proficient in SQL, Python, and Spark, with expertise in Tableau and Power BI for transforming complex data into actionable dashboards. Skilled in stakeholder collaboration, critical thinking, and driving data-informed decisions across cross-functional teams. 
