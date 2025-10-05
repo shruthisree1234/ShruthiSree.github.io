@@ -2,7 +2,12 @@
 
 ## About Me
 
-Data Analyst with 3+ years of experience delivering strategic insights through business intelligence, data modeling, and advanced analytics. Proficient in SQL, Python, and Spark, with expertise in Tableau and Power BI for transforming complex data into actionable dashboards. Skilled in stakeholder collaboration, critical thinking, and driving data-informed decisions across cross-functional teams.
+I'm a data analyst and data engineer with over 3 years of experience turning complex business problems into actionable solutions. My passion lies in uncovering insights that drive growth, reduce costs, and empower strategic decisions. Whether building full-stack data platforms or crafting executive dashboards, I leverage advanced analytics (Python, Spark, SQL) and BI tools (Tableau, Power BI) to illuminate trends and opportunities.
+
+I've led analytics projects across SaaS, retail, and operations – from predicting customer churn and optimizing ARPU to engineering robust ETL pipelines. My collaborative approach ensures stakeholders at every level understand the value behind the numbers and are equipped to act on clear, data-driven recommendations.
+
+If you're looking for someone who combines deep technical expertise with business acumen and a knack for making data meaningful, let's connect – I thrive on partnering to solve big challenges and deliver measurable results.
+
 
 ## Projects
 
