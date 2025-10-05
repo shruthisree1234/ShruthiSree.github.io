@@ -48,24 +48,12 @@ If you're looking for someone who combines deep technical expertise with busines
 </div>
 
 <div style="margin-bottom: 30px;">
-  <a href="https://github.com/shruthisree1234/Sentiment-Analysis" style="text-decoration: none; color: inherit; display: block;">
+  <a href="https://github.com/shruthisree1234/DW-design-and-MQT" style="text-decoration: none; color: inherit; display: block;">
     <div style="border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.2s; background-color: #ffffff;">
-      <img src="images/matched_sentiment (1).jpg" alt="Sentiment Analysis" style="width: 100%; display: block;" />
+      <img src="images/matched_operational.jpg" alt="Data Warehouse Design for Operational Analytics" style="width: 100%; display: block;" />
       <div style="padding: 20px; background-color: #f9f9f9;">
-        <h3 style="margin: 0 0 10px 0; font-weight: bold;">Sentiment Analysis </h3>
-        <p style="margin: 0; color: #666;">Compares multiple machine learning and deep learning models (SVM, LSTM, and CNN) for automated sentiment classification of text. Each approach highlights different strengths in understanding sentiment from language data.</p>
-      </div>
-    </div>
-  </a>
-</div>
-
-<div style="margin-bottom: 30px;">
-  <a href="https://github.com/shruthisree1234/Face_mask_detection" style="text-decoration: none; color: inherit; display: block;">
-    <div style="border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.2s; background-color: #ffffff;">
-      <img src="images/matched_face mask.jpg" alt="Face mask detection" style="width: 100%; display: block;" />
-      <div style="padding: 20px; background-color: #f9f9f9;">
-        <h3 style="margin: 0 0 10px 0; font-weight: bold;">Face mask detection </h3>
-        <p style="margin: 0; color: #666;">Implements and compares deep learning models for real-time face mask detection using computer vision. The focus is on building efficient pipelines for recognizing whether individuals in images or video streams are wearing face masks for public health and safety.</p>
+        <h3 style="margin: 0 0 10px 0; font-weight: bold;">Data Warehouse Design for Operational Analytics </h3>
+        <p style="margin: 0; color: #666;">End-to-end design and implementation of a Data Warehouse for operation analytics</p>
       </div>
     </div>
   </a>
@@ -84,12 +72,24 @@ If you're looking for someone who combines deep technical expertise with busines
 </div>
 
 <div style="margin-bottom: 30px;">
-  <a href="https://github.com/shruthisree1234/DW-design-and-MQT" style="text-decoration: none; color: inherit; display: block;">
+  <a href="https://github.com/shruthisree1234/Sentiment-Analysis" style="text-decoration: none; color: inherit; display: block;">
     <div style="border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.2s; background-color: #ffffff;">
-      <img src="images/matched_operational.jpg" alt="Data Warehouse Design for Operational Analytics" style="width: 100%; display: block;" />
+      <img src="images/matched_sentiment (1).jpg" alt="Sentiment Analysis" style="width: 100%; display: block;" />
       <div style="padding: 20px; background-color: #f9f9f9;">
-        <h3 style="margin: 0 0 10px 0; font-weight: bold;">Data Warehouse Design for Operational Analytics </h3>
-        <p style="margin: 0; color: #666;">End-to-end design and implementation of a Data Warehouse for operation analytics</p>
+        <h3 style="margin: 0 0 10px 0; font-weight: bold;">Sentiment Analysis </h3>
+        <p style="margin: 0; color: #666;">Compares multiple machine learning and deep learning models (SVM, LSTM, and CNN) for automated sentiment classification of text. Each approach highlights different strengths in understanding sentiment from language data.</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+<div style="margin-bottom: 30px;">
+  <a href="https://github.com/shruthisree1234/Face_mask_detection" style="text-decoration: none; color: inherit; display: block;">
+    <div style="border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.2s; background-color: #ffffff;">
+      <img src="images/matched_face mask.jpg" alt="Face mask detection" style="width: 100%; display: block;" />
+      <div style="padding: 20px; background-color: #f9f9f9;">
+        <h3 style="margin: 0 0 10px 0; font-weight: bold;">Face mask detection </h3>
+        <p style="margin: 0; color: #666;">Implements and compares deep learning models for real-time face mask detection using computer vision. The focus is on building efficient pipelines for recognizing whether individuals in images or video streams are wearing face masks for public health and safety.</p>
       </div>
     </div>
   </a>
