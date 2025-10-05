@@ -33,7 +33,7 @@ Data Analyst with 3+ years of experience delivering strategic insights through b
 <div style="margin-bottom: 30px;">
   <a href="https://github.com/shruthisree1234/Bike_Rental_system" style="text-decoration: none; color: inherit; display: block;">
     <div style="border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.2s; background-color: #ffffff;">
-      <img src="images/matched_bikerental.jpg" alt="Performance Monitoring and Visualization - Product Rental System" style="width: 100%; display: block;" />
+      <img src="images/matched_bikerental (1).jpg" alt="Performance Monitoring and Visualization - Product Rental System" style="width: 100%; display: block;" />
       <div style="padding: 20px; background-color: #f9f9f9;">
         <h3 style="margin: 0 0 10px 0; font-weight: bold;">Performance Monitoring and Visualization - Product Rental System </h3>
         <p style="margin: 0; color: #666;">Database-driven bike rental management system designed to mirror the real-world operations of a vehicle rental business</p>
@@ -45,7 +45,7 @@ Data Analyst with 3+ years of experience delivering strategic insights through b
 <div style="margin-bottom: 30px;">
   <a href="https://github.com/shruthisree1234/Sentiment-Analysis" style="text-decoration: none; color: inherit; display: block;">
     <div style="border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.2s; background-color: #ffffff;">
-      <img src="images/matched_sentiment.jpg" alt="Sentiment Analysis" style="width: 100%; display: block;" />
+      <img src="images/matched_sentiment (1).jpg" alt="Sentiment Analysis" style="width: 100%; display: block;" />
       <div style="padding: 20px; background-color: #f9f9f9;">
         <h3 style="margin: 0 0 10px 0; font-weight: bold;">Sentiment Analysis </h3>
         <p style="margin: 0; color: #666;">Compares multiple machine learning and deep learning models (SVM, LSTM, and CNN) for automated sentiment classification of text. Each approach highlights different strengths in understanding sentiment from language data.</p>
