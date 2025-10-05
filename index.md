@@ -1,4 +1,4 @@
-# Hi, I'm Shruthi Sree
+## Hello, This Shruthi Sree Thirunavukkarasu
 
 Welcome to my portfolio website!
 
