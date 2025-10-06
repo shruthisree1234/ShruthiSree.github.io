@@ -164,7 +164,7 @@ If you're looking for someone who combines deep technical expertise with busines
 
 
 
-## My Skills
+## Skills
 
 **Data Engineering**
 - Python, SQL, SparkSQL
@@ -191,8 +191,9 @@ If you're looking for someone who combines deep technical expertise with busines
 - Data storytelling & stakeholder communication
 
 
-## My Skills
+## Education
 
 **Master of Science in Computer Engineering** 
 
 University of Texas, Arlington  (CGPA : 3.9/4)
+
