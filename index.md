@@ -198,20 +198,54 @@
 
 ## About Me
 
-I'm **Shruthi Sree**, an aspiring software engineer passionate about building impactful solutions through code. Currently pursuing my undergraduate degree in **Computer Science and Engineering** at **Velagapudi Ramakrishna Siddhartha Engineering College**, I have developed a strong foundation in algorithms, data structures, and full-stack development.
+With 3+ years of experience in data analytics, data engineering, business insights, machine learning, and data storytelling, I specialize in designing and optimizing end-to-end solutions that deliver measurable results. My work enables teams to transform raw data into actionable intelligence, solve complex challenges, and drive strategic business decisions.
 
-I enjoy working on projects that challenge me to think critically and creatively. Whether it's developing machine learning models, designing intuitive user interfaces, or optimizing backend systems, I'm always eager to learn and grow. I believe in writing clean, maintainable code and staying updated with the latest technologies.
+- ⚡ Expert in data modeling, analytics, and communicating insights through impactful storytelling
+- 🛠️ Skilled in Python, SQL, Spark, Tableau, Power BI, and cloud platforms—delivering scalable and reliable solutions
+- ✨ Proven collaborator and mentor, committed to supporting cross-functional teams and creating a culture of data-driven success
+- 🚀 Passionate about leveraging technology and analytics to unlock new business opportunities
 
-When I'm not coding, you'll find me exploring new tech trends, participating in hackathons, or contributing to open-source projects. I'm excited to collaborate with like-minded individuals and make meaningful contributions to the tech community!
+
+If you're looking for someone who combines deep technical expertise with business acumen and a knack for making data meaningful, let's connect.  I thrive on partnering to solve big challenges and deliver measurable results.
 
 <div class="section-space"></div>
 
 ## Accomplishments
 
-- **Selected among top 55 student ambassadors** at VRSEC from pool of over 500 students
-- **Active contributor** to open-source projects on GitHub
-- **Completed multiple certifications** in Python, Java, and web development
-- **Participated in various hackathons** and coding competitions
+- 🚀 **Scalable Data Solutions**
+  
+  Engineered data pipelines using Spark, Kafka, and Azure, automating the flow of over 43 million telemetry events daily. This enabled real-time monitoring, faster decision-making, and supported expanded business capabilities.
+
+  
+- 📊 **Faster, Smarter Reporting**
+  
+  Designed and deployed Tableau/Power BI dashboards that cut manual reporting efforts by 40%. This gave business leaders instant access to actionable metrics, accelerating performance reviews and driving better decision making.
+
+  
+- 💡 **Reliable Data for Confident Decisions**
+  
+  Led warehouse validation and automated data checks, reducing reporting errors by 20%. Improved clinical data quality allowed teams to trust insights and make regulatory and operational decisions more securely.
+
+  
+- 🏆 **Downtime Slashed, Productivity Up**
+  
+  Built anomaly detection and forecasting models that helped the field team proactively prevent equipment failures, reducing downtime by 25%. This boosted operational reliability and drove cost savings for the company.
+
+  
+- 🤝 **Rapid Issue Resolution**
+
+  Diagnosed and resolved data integration challenges across analytics and operations. By increasing pipeline reliability 18%, teams spent less time troubleshooting and more time delivering impactful work, directly supporting company growth.
+
+  
+- 🏆 **Influenced Executive Decision-Making**
+  
+  Designed and delivered tailored dashboards and predictive models for leadership, equipping executives with real-time metrics and actionable insights that directly improved quarterly strategic planning and resource investment.
+
+  
+- 🌐 **Built a Culture of Shared Success**
+  
+  Led peer learning calls and documented best practices, mentoring teammates in SQL, analytics, and reporting workflows. This leadership drove faster problem resolution and boosted team performance.
+
 
 <div class="section-space"></div>
 
@@ -219,9 +253,9 @@ When I'm not coding, you'll find me exploring new tech trends, participating in 
 
 <div class="cards">
   <div class="card">
-    <img src="https://via.placeholder.com/400x180/0969da/ffffff?text=Movie+Recommendation" alt="Movie Recommendation System"/>
-    <h3>Movie Recommendation System</h3>
-    <p>Developed a content-based recommendation system using cosine similarity and TF-IDF vectorization to suggest movies based on user preferences.</p>
+    <img src="images/churn-rate-1.jpg" alt="SaaS Churn Prediction" style="width: 100%; height:230px; object-fit:cover; display: block;" />
+    <h3>SaaS Churn Prediction</h3>
+    <p>A deep-dive analytics project on SaaS KPIs: customer segmentation, churn, ARPU, margin, contracts, and marketing spend. Includes business recommendations driven by data and executive-level dashboards.</p>
     <div class="tags">
       <span class="tag">Python</span>
       <span class="tag">Pandas</span>
