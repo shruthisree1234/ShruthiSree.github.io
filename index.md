@@ -63,98 +63,7 @@
     outline-offset: 2px;
   }
 
-  /* Section spacing */
-  section {
-    scroll-margin-top: 80px;
-  }
-
-  /* Project grid and images */
-  .section-title {
-    margin: 28px 0 10px;
-    font-size: 1.6rem;
-  }
-  .subgroup {
-    margin-top: 18px;
-  }
-  .subgroup h3 {
-    font-size: 1.3rem;
-    margin: 20px 0 12px;
-    color: #0969da;
-  }
-  .cards {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    gap: 14px;
-  }
-  .card {
-    grid-column: span 6;
-    border: 1px solid #d0d7de;
-    border-radius: 10px;
-    padding: 14px;
-    background: #ffffff;
-  }
-  .card img {
-    width: 100%;
-    height: 180px;
-    object-fit: cover;
-    border-radius: 6px;
-    margin-bottom: 10px;
-  }
-  .card h3 {
-    margin: 0 0 6px;
-    font-size: 1.05rem;
-  }
-  .card p {
-    margin: 0 0 8px;
-    color: #57606a;
-  }
-  .tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px;
-  }
-  .tag {
-    font-size: .78rem;
-    background: #eaeef2;
-    color: #0d1117;
-    padding: 3px 8px;
-    border-radius: 999px;
-    border: 1px solid #d0d7de;
-  }
-
-  @media (max-width: 900px) {
-    .card {
-      grid-column: span 12;
-    }
-  }
-
-  /* Page container compatibility on GitHub Pages */
-  .container-lg {
-    max-width: 1012px;
-    margin: 0 auto;
-    padding: 0 16px;
-  }
-</style>
-
-<script>
-  // Toggle menu on hamburger click
-  function toggleMenu() {
-    const menu = document.getElementById('nav-menu');
-    menu.classList.toggle('open');
-  }
-
-  // Close menu when clicking anywhere
-  document.addEventListener('click', (e) => {
-    const nav = document.querySelector('.nav');
-    if (!nav.contains(e.target)) {
-      const menu = document.getElementById('nav-menu');
-      menu.classList.remove('open');
-    }
-  });
-</script>
-
-<style>
-  /* Heading styles */
+  /* Typography */
   h2 {
     font-weight: bold;
     color: #1976d2;
@@ -164,30 +73,76 @@
     border-bottom: 2px solid #1976d2;
     padding-bottom: 10px;
   }
-
   h3 {
-    font-weight: bold;
-    color: #2b4580;
-    margin-top: 40px;
-    margin-bottom: 18px;
+    color: #333;
+    font-size: 1.3rem;
+    margin-top: 24px;
+    margin-bottom: 14px;
+  }
+  p, li {
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 14px;
   }
 
-  /* Section spacing utility */
+  /* Cards */
+  .card {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+  .card img {
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 10px;
+  }
+  .card h3 {
+    margin-top: 0;
+    color: #1976d2;
+  }
+  .card p {
+    margin: 10px 0;
+    color: #666;
+  }
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+  }
+  .tag {
+    background: #1976d2;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 0.85rem;
+  }
+
+  /* Utilities */
   .section-space {
-    margin-top: 60px;
+    height: 30px;
+  }
+
+  /* Site description color matching title */
+  .project-tagline {
+    color: #1976d2 !important;
   }
 </style>
 
+<script>
+function toggleMenu() {
+  const menu = document.querySelector('.menu');
+  menu.classList.toggle('open');
+}
+</script>
+
 <div class="nav">
-  <button class="hamb" onclick="toggleMenu()" aria-label="Menu">
-    <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-      <path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path>
-    </svg>
-    Menu
-  </button>
-  <div class="menu" id="nav-menu">
+  <button class="hamb" onclick="toggleMenu()">☰ Menu</button>
+  <div class="menu">
     <a href="#about">About</a>
-    <a href="#accomplishments">Accomplishments</a>
     <a href="#projects">Projects</a>
     <a href="#skills">Skills</a>
     <a href="#education">Education</a>
@@ -198,115 +153,76 @@
 
 ## About Me
 
-With 3+ years of experience in data analytics, data engineering, business insights, machine learning, and data storytelling, I specialize in designing and optimizing end-to-end solutions that deliver measurable results. My work enables teams to transform raw data into actionable intelligence, solve complex challenges, and drive strategic business decisions.
+I am a passionate **Computer Science Engineering** student specializing in **Data Analysis and Data Engineering**. With a strong foundation in programming languages such as Python, Java, and JavaScript, I enjoy building data-driven applications and solving real-world problems through technology.
 
-- ⚡ Expert in data modeling, analytics, and communicating insights through impactful storytelling
-- 🛠️ Skilled in Python, SQL, Spark, Tableau, Power BI, and cloud platforms—delivering scalable and reliable solutions
-- ✨ Proven collaborator and mentor, committed to supporting cross-functional teams and creating a culture of data-driven success
-- 🚀 Passionate about leveraging technology and analytics to unlock new business opportunities
-
-
-If you're looking for someone who combines deep technical expertise with business acumen and a knack for making data meaningful, let's connect.  I thrive on partnering to solve big challenges and deliver measurable results.
-
-<div class="section-space"></div>
-
-## Accomplishments
-
-- 🚀 **Scalable Data Solutions**
-  
-  Engineered data pipelines using Spark, Kafka, and Azure, automating the flow of over 43 million telemetry events daily. This enabled real-time monitoring, faster decision-making, and supported expanded business capabilities.
-
-  
-- 📊 **Faster, Smarter Reporting**
-  
-  Designed and deployed Tableau/Power BI dashboards that cut manual reporting efforts by 40%. This gave business leaders instant access to actionable metrics, accelerating performance reviews and driving better decision making.
-
-  
-- 💡 **Reliable Data for Confident Decisions**
-  
-  Led warehouse validation and automated data checks, reducing reporting errors by 20%. Improved clinical data quality allowed teams to trust insights and make regulatory and operational decisions more securely.
-
-  
-- 🏆 **Downtime Slashed, Productivity Up**
-  
-  Built anomaly detection and forecasting models that helped the field team proactively prevent equipment failures, reducing downtime by 25%. This boosted operational reliability and drove cost savings for the company.
-
-  
-- 🤝 **Rapid Issue Resolution**
-
-  Diagnosed and resolved data integration challenges across analytics and operations. By increasing pipeline reliability 18%, teams spent less time troubleshooting and more time delivering impactful work, directly supporting company growth.
-
-  
-- 🏆 **Influenced Executive Decision-Making**
-  
-  Designed and delivered tailored dashboards and predictive models for leadership, equipping executives with real-time metrics and actionable insights that directly improved quarterly strategic planning and resource investment.
-
-  
-- 🌐 **Built a Culture of Shared Success**
-  
-  Led peer learning calls and documented best practices, mentoring teammates in SQL, analytics, and reporting workflows. This leadership drove faster problem resolution and boosted team performance.
-
-
-<div class="section-space"></div>
+---
 
 ## Projects
 
-<div class="cards">
-  <div class="card">
-    <img src="images/churn-rate-1.jpg" alt="SaaS Churn Prediction" style="width: 100%; height:230px; object-fit:cover; display: block;" />
-    <h3>SaaS Churn Prediction</h3>
-    <p>A deep-dive analytics project on SaaS KPIs: customer segmentation, churn, ARPU, margin, contracts, and marketing spend. Includes business recommendations driven by data and executive-level dashboards.</p>
-    <div class="tags">
-      <span class="tag">Python</span>
-      <span class="tag">Pandas</span>
-      <span class="tag">Scikit-learn</span>
-      <span class="tag">Streamlit</span>
-    </div>
+<div class="card">
+  <img src="https://via.placeholder.com/400x180/1976d2/ffffff?text=Data+Pipeline" alt="Data Pipeline"/>
+  <h3>Data Pipeline Automation Tool</h3>
+  <p>Designed and implemented an automated data pipeline to process and transform large datasets for analytics.</p>
+  <div class="tags">
+    <span class="tag">Python</span>
+    <span class="tag">SQL</span>
+    <span class="tag">Apache Airflow</span>
   </div>
+</div>
 
-  <div class="card">
-    <img src="https://via.placeholder.com/400x180/2da44e/ffffff?text=Portfolio+Website" alt="Portfolio Website"/>
-    <h3>Personal Portfolio Website</h3>
-    <p>Designed and deployed a responsive portfolio website showcasing my projects, skills, and achievements.</p>
-    <div class="tags">
-      <span class="tag">HTML</span>
-      <span class="tag">CSS</span>
-      <span class="tag">JavaScript</span>
-      <span class="tag">GitHub Pages</span>
-    </div>
+<div class="card">
+  <img src="https://via.placeholder.com/400x180/388e3c/ffffff?text=Dashboard" alt="Dashboard"/>
+  <h3>Interactive Analytics Dashboard</h3>
+  <p>Built an interactive dashboard to visualize key business metrics using real-time data.</p>
+  <div class="tags">
+    <span class="tag">React.js</span>
+    <span class="tag">Chart.js</span>
+    <span class="tag">Node.js</span>
   </div>
+</div>
 
-  <div class="card">
-    <img src="https://via.placeholder.com/400x180/8250df/ffffff?text=Regression+ML" alt="Regression ML"/>
-    <h3>Regression Models Comparison</h3>
-    <p>Compared various regression techniques to determine the best model for sales forecasting.</p>
-    <div class="tags">
-      <span class="tag">Python</span>
-      <span class="tag">Scikit-learn</span>
-      <span class="tag">Seaborn</span>
-    </div>
+<div class="card">
+  <img src="https://via.placeholder.com/400x180/d32f2f/ffffff?text=ML+Model" alt="ML Model"/>
+  <h3>Customer Churn Prediction Model</h3>
+  <p>Developed a machine learning model to predict customer churn with 85% accuracy using logistic regression.</p>
+  <div class="tags">
+    <span class="tag">Python</span>
+    <span class="tag">Scikit-learn</span>
+    <span class="tag">Pandas</span>
   </div>
+</div>
 
-  <div class="card">
-    <img src="https://via.placeholder.com/400x180/bf3989/ffffff?text=Algorithm+Viz" alt="Algorithm Visualization"/>
-    <h3>Algorithm Visualization Tool</h3>
-    <p>Developed an interactive tool to visualize sorting and searching algorithms for educational purposes.</p>
-    <div class="tags">
-      <span class="tag">JavaScript</span>
-      <span class="tag">D3.js</span>
-      <span class="tag">HTML/CSS</span>
-    </div>
+<div class="card">
+  <img src="https://via.placeholder.com/400x180/7b1fa2/ffffff?text=Exploratory+Analysis" alt="Exploratory Analysis"/>
+  <h3>Exploratory Data Analysis on COVID-19 Dataset</h3>
+  <p>Performed comprehensive EDA on COVID-19 data to uncover trends and patterns in infection rates.</p>
+  <div class="tags">
+    <span class="tag">Python</span>
+    <span class="tag">Pandas</span>
+    <span class="tag">Matplotlib</span>
+    <span class="tag">Seaborn</span>
   </div>
+</div>
 
-  <div class="card">
-    <img src="https://via.placeholder.com/400x180/fb8500/ffffff?text=Face+Mask+Detection" alt="Face Mask Detection"/>
-    <h3>Face Mask Detection System</h3>
-    <p>Built a CNN-based system to detect face masks in real-time using OpenCV and TensorFlow.</p>
-    <div class="tags">
-      <span class="tag">Python</span>
-      <span class="tag">TensorFlow</span>
-      <span class="tag">OpenCV</span>
-    </div>
+<div class="card">
+  <img src="https://via.placeholder.com/400x180/bf3989/ffffff?text=Algorithm+Viz" alt="Algorithm Visualization"/>
+  <h3>Algorithm Visualization Tool</h3>
+  <p>Developed an interactive tool to visualize sorting and searching algorithms for educational purposes.</p>
+  <div class="tags">
+    <span class="tag">JavaScript</span>
+    <span class="tag">D3.js</span>
+    <span class="tag">HTML/CSS</span>
+  </div>
+</div>
+
+<div class="card">
+  <img src="https://via.placeholder.com/400x180/fb8500/ffffff?text=Face+Mask+Detection" alt="Face Mask Detection"/>
+  <h3>Face Mask Detection System</h3>
+  <p>Built a CNN-based system to detect face masks in real-time using OpenCV and TensorFlow.</p>
+  <div class="tags">
+    <span class="tag">Python</span>
+    <span class="tag">TensorFlow</span>
+    <span class="tag">OpenCV</span>
   </div>
 </div>
 
