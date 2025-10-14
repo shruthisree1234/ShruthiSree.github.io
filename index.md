@@ -198,7 +198,7 @@
 
 ## About Me
 
-With 3+ years of experience in data analytics, data engineering, business insights, machine learning, and data storytelling, I specialize in designing and optimizing end-to-end solutions that deliver measurable results. My work enables teams to transform raw data into actionable intelligence, solve complex challenges, and drive strategic business decisions.
+With 4 years of experience in data analytics, data engineering, business insights, machine learning, and data storytelling, I specialize in designing and optimizing end-to-end solutions that deliver measurable results. My work enables teams to transform raw data into actionable intelligence, solve complex challenges, and drive strategic business decisions.
 
 - ⚡ Expert in data modeling, analytics, and communicating insights through impactful storytelling
 - 🛠️ Skilled in Python, SQL, Spark, Tableau, Power BI, and cloud platforms—delivering scalable and reliable solutions
